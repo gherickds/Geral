@@ -1,5 +1,5 @@
 # Glossário
-- Construtor
+- [Construtor](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#construtor)
 - Instanciação
 - Palavra reservada new
 - Palavra reservada instanciof
