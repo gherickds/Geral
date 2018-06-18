@@ -117,7 +117,7 @@ this.fala = fala;
 }
 ```
 # Palavra reservada public/private
-- Public: uma declaração com o modificador public faz com que uma classe, método ou variável possa ser acessado a partir de qualquer outra classe.
+- Public: uma declaração com o modificador public faz com que uma classe, método ou variável possa ser acessado a partir de qualquer outra classe;
 ```javascript
 package garagem;
 public class Carro {
@@ -134,7 +134,7 @@ return marca + " " + cor + " " + motor.potencia;
 }
 }
 ```
-- Private: uma declaração com o modificador private faz com que um método ou variável possa ser acessado somente de dentro da própria classe;
+- Private: uma declaração com o modificador private faz com que um método ou variável possa ser acessado somente de dentro da própria classe.
 ```javascript
 class Circulo
 {    
@@ -155,6 +155,16 @@ p.setRaio(10.0); /* Correto, pois a classe Pneu está utilizando os métodos def
                  /* acesso ao atributo privado raio 
 }
 ```
+# Assinatura de método
+- Assinaturas de método são uma combinação do nome do método, tipos e ordem dos seus parâmetros.
+#### Declaração:
+```javascript
+public void facaAlgo (int Valor, String st)
+```
+#### Assinatura:
+```javascript
+facaAlgo(int, String)
+```
 # Referências
 - https://www.devmedia.com.br/construtores-em-java/28618
 - https://www.devmedia.com.br/conceitos-e-exemplos-instanciacao-estrutura-da-linguagem/18817
@@ -165,3 +175,4 @@ p.setRaio(10.0); /* Correto, pois a classe Pneu está utilizando os métodos def
 - https://www.vivaolinux.com.br/dica/Entendendo-os-getters-e-setters-em-Java
 - https://pt.wikibooks.org/wiki/Java/Modificadores
 - http://high5devs.com/2015/02/modificadores-de-acesso-em-java/
+- https://pooperrotti.wikispaces.com/Assinatura+de+m%C3%A9todos
