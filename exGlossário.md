@@ -58,7 +58,7 @@ objPokemon.tipo = "Água";
 - É utilizada para instanciar um objeto. 
 #### Exemplos podem ser vistos em Construtor e Instanciação. "new Pokemon();"
 
-# Palavra reservada instanciof
+# Palavra reservada instanceof
 - Determina se um objeto é a instancia de uma classe, superclasse ou interface.
 ```javascript
 class Pokemon{
