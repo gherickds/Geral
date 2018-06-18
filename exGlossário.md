@@ -7,7 +7,7 @@
 - [Palavra reservada this](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-this)
 - [Getters/Setters](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#getters-e-setters)
 - [Palavra reservada public/private](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-publicprivate)
-- [Assinatura de método]()
+- [Assinatura de método](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#assinatura-de-m%C3%A9todo)
 - [Sobrecarga de método]()
 - [Escopo de classe]()
 - [Escopo de objeto]()
@@ -164,6 +164,33 @@ public void facaAlgo (int Valor, String st)
 #### Assinatura:
 ```javascript
 facaAlgo(int, String)
+```
+# Sobrecarga de métodos
+- A sobrecarga de métodos consiste na possibilidade de criar o mesmo método com possibilidades de entradas diferentes. Essas entradas, caracterizadas como parâmetros, devem sempre ser de tipos diferentes, quantidades de parâmetros diferentes ou posições dos tipos diferentes.
+```javascript
+public class TV {
+int canal;
+int volume;
+boolean ligada;
+int tamanho;
+ 
+void ligar() {
+this.ligar(3, 25, true);
+}
+ 
+void ligar(boolean ligada) {
+this.ligar(3, 25, ligada);
+}
+void ligar(int canal, int volume) {
+this.ligar(canal, volume, true);
+}
+
+void ligar(int canal, int volume, boolean ligada) {
+this.canal = canal;
+this.volume = volume;
+this.ligada = ligada;
+}
+}
 ```
 # Referências
 - https://www.devmedia.com.br/construtores-em-java/28618
