@@ -80,9 +80,88 @@ System.out.println("Squirtle é um pokémon"):
 ![Exemplo](http://arquivo.devmedia.com.br/revistas/easyjava/imagens/43/1/image007.jpg)
 
 - Como se pode notar, estas classes encapsulam os dados relacionados a cada objeto de forma que possamos acessar cada um deles sem conflito, por estarem cada um em seu domínio. Ou seja, para saber a idade de um homem, podemos perguntar por Homem.idade e, da mesma forma, para saber a idade de um cachorro, podemos perguntar por Cachorro.idade. Os dois atributos têm o mesmo nome, mas cada um tem o seu próprio domínio.
+# Palavra reservada this
+- É uma variável de referência que diz respeito a instancia atual de um objeto;
+```javascript
+class MinhaClasse{
+
+private int numero;
+
+MinhaClasse(int numero){
+
+this.numero = numero;
+/* Colocando a variável this o compilador consegue identificar quem é quem */
+}
+}
+```
+# Getters e Setters
+- Getters são utilizados quando se quer pegar um valor de determinada variável.
+```javascript
+public class FalarBomDia { 
+private String fala = "Bom dia"; 
+public String getFala() 
+{ 
+return fala; 
+} 
+}
+```
+- Setters são utilizados para setar valores em determinadas variavéis.
+```javascript
+public class FalarBomDia { 
+private String fala = "Bom dia"; 
+public void setFala(String fala) 
+{ 
+this.fala = fala;
+/* Neste caso o valor recebido é igualado a variavel local */
+} 
+}
+```
+# Palavra reservada public/private
+- Public: uma declaração com o modificador public faz com que uma classe, método ou variável possa ser acessado a partir de qualquer outra classe.
+```javascript
+package garagem;
+public class Carro {
+public String marca;
+public String cor;
+public Motor motor;
+public void ligar()
+{
+this.motor.darPartida();
+}
+public String toString()
+{
+return marca + " " + cor + " " + motor.potencia;
+}
+}
+```
+- Private: uma declaração com o modificador private faz com que um método ou variável possa ser acessado somente de dentro da própria classe;
+```javascript
+class Circulo
+{    
+private float raio;
+Circulo()
+{
+super();
+setRaio( 3.0 );
+}
+raio = r
+}
+}
+class Pneu extends Circulo
+{
+Pneu p = new Pneu();
+p.raio = 10.0; /* Ocorre um erro de compilação. O Atributo raio é privado da classe Circulo */
+p.setRaio(10.0); /* Correto, pois a classe Pneu está utilizando os métodos definidos na classe Circulo para fazer
+                 /* acesso ao atributo privado raio 
+}
+```
 # Referências
 - https://www.devmedia.com.br/construtores-em-java/28618
 - https://www.devmedia.com.br/conceitos-e-exemplos-instanciacao-estrutura-da-linguagem/18817
 - https://www.devmedia.com.br/o-que-significa-cada-palavra-reservada/8320
 - http://www.guj.com.br/t/quando-usar-o-instanceof/183227/3
 - https://www.devmedia.com.br/encapsulamento-em-java-primeiros-passos/31177
+- http://www.guj.com.br/t/a-palavra-reservada-this/51211
+- https://www.vivaolinux.com.br/dica/Entendendo-os-getters-e-setters-em-Java
+- https://pt.wikibooks.org/wiki/Java/Modificadores
+- http://high5devs.com/2015/02/modificadores-de-acesso-em-java/
