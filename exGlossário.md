@@ -34,7 +34,7 @@ Squirtle = new Pokemon();
 }
 ```
 # Instanciação
-A instanciação é um processo por meio do qual se realiza a cópia de um objeto (classe) existente. Uma classe, a qual tem a função de determinar um tipo de dado, deve ser instanciada para que possa ser utilizada. Portanto, devemos criar sua instância, a qual é definida como um objeto referente ao tipo de dado que foi definido pela classe.
+- A instanciação é um processo por meio do qual se realiza a cópia de um objeto (classe) existente. Uma classe, a qual tem a função de determinar um tipo de dado, deve ser instanciada para que possa ser utilizada. Portanto, devemos criar sua instância, a qual é definida como um objeto referente ao tipo de dado que foi definido pela classe.
 ```javascript
 public class Pokemon{
 public string nome;
