@@ -242,7 +242,7 @@ numeroDePlanetas++;
 }
 ```
 # Escopo de objeto
-- https://www.inf.ufes.br/~vitorsouza/wp-content/uploads/java-br-curso-basico-novo-slides04.pdf
+- No escopo de objeto, um atributo ou método existe para o sistema como um todo. Por exeplo, uma váriavel definida fora do escopo da classe, pode ser acessada por todas as classes. Caso não seja utilizada a palavra static, se define como Escopo de objeto qualquer atributo ou método criado.
 
 # Palavra Reservada Final
 - Quando usada na definição de uma variável, significa que a variável não pode assumir outro valor, tornando-se uma constante,
