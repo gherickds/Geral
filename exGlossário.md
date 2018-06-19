@@ -192,6 +192,45 @@ this.ligada = ligada;
 }
 }
 ```
+# Escopo de classe
+- Escopo refere-se à vida e acessibilidade de uma variável. Quão grande é o alcance depende de onde uma variável é declarada. Por exemplo, se uma variável é declarada na parte superior de uma classe, ela será acessível a todos os métodos de classe. Se for declarada num método, em seguida, só pode ser utilizada em tal método.
+```javascript
+public class principal {
+public static void main(String[] args)
+{
+Planetas marte = new Planetas(3.0, 1.5, 6.419e23);
+marte.apelido = "Marte";
+System.out.println("Quantidade de planetas: " + Planetas.numeroDePlanetas);
+System.out.println("Nome do Planeta: " + marte.apelido);
+System.out.println("As outras variaveis da classe não podem ser alcançadas devido ao escopo");
+System.out.println("mas podem ser utlizadas dentro da classe");
+}
+}
+/* -------------------------------------------------------------- */
+public class Planetas {
+ 
+// Variavel da classe é compartilhada por todos
+public static long numeroDePlanetas;
+
+// Variavel de intancias
+private double x, y;
+private double massa;
+public String apelido;
+ 
+// Construtor
+//  x e y são  variaveis instanciadas,
+//  mas newX and newY são variaveis locais
+//  O construtor incrementa o valor
+public  Planetas(double novoX, double novoY, double novaMassa)
+{
+x = novoX;
+y = novoY;
+massa = novaMassa;
+numeroDePlanetas++;
+}
+}
+```
+# Escopo de objeto
 # Referências
 - https://www.devmedia.com.br/construtores-em-java/28618
 - https://www.devmedia.com.br/conceitos-e-exemplos-instanciacao-estrutura-da-linguagem/18817
@@ -204,3 +243,4 @@ this.ligada = ligada;
 - http://high5devs.com/2015/02/modificadores-de-acesso-em-java/
 - https://pooperrotti.wikispaces.com/Assinatura+de+m%C3%A9todos
 - http://www.tiexpert.net/programacao/java/sobrecarga-de-metodo.php
+- https://desenvolvimentoaberto.org/2014/02/14/classes-escopos-java-c-e-c/
