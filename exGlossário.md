@@ -1,4 +1,5 @@
 # Glossário
+# Sumário
 - [Construtor](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#construtor)
 - [Instanciação](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#instancia%C3%A7%C3%A3o)
 - [Palavra reservada new](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-new)
@@ -9,12 +10,12 @@
 - [Palavra reservada public/private](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-publicprivate)
 - [Assinatura de método](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#assinatura-de-m%C3%A9todo)
 - [Sobrecarga de método](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#sobrecarga-de-m%C3%A9todos)
-- [Escopo de classe]()
-- [Escopo de objeto]()
-- [Palavra reservada final]()
-- [Relacionamento de dependência]()
-- [Relacinamento de Agregação]()
-- [Relacionamento de Composição]()
+- [Escopo de classe](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#escopo-de-classe)
+- [Escopo de objeto](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#escopo-de-objeto)
+- [Palavra reservada final](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-final)
+- [Relacionamento de dependência](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#relacionamento-de-depend%C3%AAncia)
+- [Relacinamento de Agregação](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#relacinamento-de-agrega%C3%A7%C3%A3o)
+- [Relacionamento de Composição](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#relacionamento-de-composi%C3%A7%C3%A3o)
 - [Referências](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#refer%C3%AAncias)
 # Construtor
 - É um método chamado apenas no momento da criação do objeto através do operador new. Deve ter o mesmo nome da classe e não possui indicação do tipo de retorno, nem mesmo void.
@@ -259,12 +260,12 @@ public class Pokemon extends Pokedex {}
 
 # Relacinamento de agregação
 - A agregação representa um vínculo fraco entre duas classes, ou seja, a classe filha faz sentido mesmo se a classe pai deixar de existir. Se a classe pai for apagada, a classe filha continuará existindo sem problemas.
-#### Exemplo
+#### Exemplo:
 ![Exemplo](http://www.cleibsonalmeida.blog.br/site/wp-content/uploads/2012/08/uml_agregacao.gif)
 
 # Relacionamento de composição
 - A composição representa um vínculo forte entre duas classes, ou seja, uma classe filha só faz sentido se uma classe pai existir. Se a classe pai for apagada, a classe filha automaticamente deixará de existir.
-#### Exemplo
+#### Exemplo:
 ![Exemplo](http://www.cleibsonalmeida.blog.br/site/wp-content/uploads/2012/08/uml_composicao.gif)
 
 # Referências
