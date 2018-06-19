@@ -3,7 +3,7 @@
 - [Construtor](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#construtor)
 - [Instanciação](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#instancia%C3%A7%C3%A3o)
 - [Palavra reservada new](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-new)
-- [Palavra reservada instanciof](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-instanceof)
+- [Palavra reservada instanceof](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-instanceof)
 - [Encapsulamento](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#encapsulamento)
 - [Palavra reservada this](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-this)
 - [Getters/Setters](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#getters-e-setters)
@@ -14,8 +14,8 @@
 - [Escopo de objeto](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#escopo-de-objeto)
 - [Palavra reservada final](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-final)
 - [Relacionamento de dependência](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#relacionamento-de-depend%C3%AAncia)
-- [Relacinamento de Agregação](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#relacinamento-de-agrega%C3%A7%C3%A3o)
-- [Relacionamento de Composição](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#relacionamento-de-composi%C3%A7%C3%A3o)
+- [Relacinamento de agregação](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#relacinamento-de-agrega%C3%A7%C3%A3o)
+- [Relacionamento de composição](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#relacionamento-de-composi%C3%A7%C3%A3o)
 - [Referências](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#refer%C3%AAncias)
 # Construtor
 - É um método chamado apenas no momento da criação do objeto através do operador new. Deve ter o mesmo nome da classe e não possui indicação do tipo de retorno, nem mesmo void.
