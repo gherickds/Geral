@@ -2,23 +2,23 @@
 - Este glossário apresenta conceitos de programação orientada a objetos, referente à atividade da disciplina de Programação orientada a objetos, do curso de Engenharia de Software na Universidade de Joinville - Univille.
 
 # Sumário
-- [Construtor](https://github.com/gherickds/Geral/blob/master/GlossarioPOO.md#construtor)
-- [Instanciação](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#instancia%C3%A7%C3%A3o)
-- [Palavra reservada new](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-new)
-- [Palavra reservada instanceof](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-instanceof)
-- [Encapsulamento](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#encapsulamento)
-- [Palavra reservada this](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-this)
-- [Getters/Setters](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#getters-e-setters)
-- [Palavra reservada public/private](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-publicprivate)
-- [Assinatura de método](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#assinatura-de-m%C3%A9todo)
-- [Sobrecarga de método](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#sobrecarga-de-m%C3%A9todos)
-- [Escopo de classe](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#escopo-de-classe)
-- [Escopo de objeto](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#escopo-de-objeto)
-- [Palavra reservada final](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-final)
-- [Relacionamento de dependência](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#relacionamento-de-depend%C3%AAncia)
-- [Relacinamento de agregação](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#relacinamento-de-agrega%C3%A7%C3%A3o)
-- [Relacionamento de composição](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#relacionamento-de-composi%C3%A7%C3%A3o)
-- [Referências](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#refer%C3%AAncias)
+- [Construtor](#construtor)
+- [Instanciação](#instanciação)
+- [Palavra reservada new](#palavra-reservada-new)
+- [Palavra reservada instanceof](#palavra-reservada-instanceof)
+- [Encapsulamento](#encapsulamento)
+- [Palavra reservada this](#palavra-reservada-this)
+- [Getters e Setters](#getters-e-setters)
+- [Palavra reservada public e private](#palavra-reservada-public-e-private)
+- [Assinatura de método](#assinatura-de-método)
+- [Sobrecarga de método](#sobrecarga-de-método)
+- [Escopo de classe](#escopo-de-classe)
+- [Escopo de objeto](#escopo-de-objeto)
+- [Palavra reservada final](#palavra-reservada-final)
+- [Relacionamento de dependência](#relacionamento-de-dependência)
+- [Relacinamento de agregação](#relacionamento-de-agregação)
+- [Relacionamento de composição](#relacionamento-de-composição)
+- [Referências](#referências)
 # Construtor
 - É um método chamado apenas no momento da criação do objeto através do operador new. Deve ter o mesmo nome da classe e não possui indicação do tipo de retorno, nem mesmo void.
 #### Exemplo:
@@ -124,7 +124,7 @@ this.fala = fala;
 } 
 }
 ```
-# Palavra reservada public/private
+# Palavra reservada public e private
 - Public: uma declaração com o modificador public faz com que uma classe, método ou variável possa ser acessado a partir de qualquer outra classe;
 #### Exemplo:
 ```javascript
@@ -176,7 +176,7 @@ public void facaAlgo (int Valor, String st)
 ```javascript
 facaAlgo(int, String)
 ```
-# Sobrecarga de métodos
+# Sobrecarga de método
 - A sobrecarga de métodos consiste na possibilidade de criar o mesmo método com possibilidades de entradas diferentes. Essas entradas, caracterizadas como parâmetros, devem sempre ser de tipos diferentes, quantidades de parâmetros diferentes ou posições dos tipos diferentes.
 #### Exemplo:
 ```javascript
@@ -260,7 +260,7 @@ public class Pokemon extends Pokedex {}
 #### Exemplo:
 ![Exemplo](https://www.ibm.com/support/knowledgecenter/pt-br/SS8PJ7_8.5.1/com.ibm.xtools.modeler.doc/images/depend.gif)
 
-# Relacinamento de agregação
+# Relacionamento de agregação
 - A agregação representa um vínculo fraco entre duas classes, ou seja, a classe filha faz sentido mesmo se a classe pai deixar de existir. Se a classe pai for apagada, a classe filha continuará existindo sem problemas.
 #### Exemplo:
 ![Exemplo](http://www.cleibsonalmeida.blog.br/site/wp-content/uploads/2012/08/uml_agregacao.gif)
