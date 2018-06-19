@@ -2,7 +2,7 @@
 - Este glossário apresenta conceitos de programação orientada a objetos, referente à atividade da disciplina de Programação orientada a objetos, do curso de Engenharia de Software na Universidade de Joinville - Univille.
 
 # Sumário
-- [Construtor](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#construtor)
+- [Construtor](https://github.com/gherickds/Geral/blob/master/GlossarioPOO.md#construtor)
 - [Instanciação](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#instancia%C3%A7%C3%A3o)
 - [Palavra reservada new](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-new)
 - [Palavra reservada instanceof](https://github.com/gherickds/Geral/blob/master/exGloss%C3%A1rio.md#palavra-reservada-instanceof)
